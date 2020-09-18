@@ -11,3 +11,4 @@
 
 ## Example rails backend for above fetches
 ### Routes:
+<script src="https://gist.github.com/sPesce/31c22b6b06edd635a102c1abb7e9da17.js"></script>
