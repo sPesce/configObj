@@ -15,7 +15,7 @@
 #### setup:
 `const USERS_URL = 'localhost:3000/'`<br/>
 `const FIND_USER_URL = 'localhost:3000/find_user'`<br/>
-`const user = {phone_number: "5552221919"}`<br/>
+`const user = {phone_number: "5552221919"}//Updating the users phone number in the example`<br/>
 #### examples:
 - Post a new user:<br/>
 `fetch(USERS_URL,configObj("POST",false,user));`
