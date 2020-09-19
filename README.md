@@ -13,14 +13,14 @@
 
 ## Example Usage:
 #### setup:
-`const USERS_URL = 'localhost:3000/'`
-`const FIND_USER_URL = 'localhost:3000/find_user'`
-`const user = {phone_number: "5552221919"}`
+`const USERS_URL = 'localhost:3000/'`<br/>
+`const FIND_USER_URL = 'localhost:3000/find_user'`<br/>
+`const user = {phone_number: "5552221919"}`<br/>
 #### examples:
 - Post a new user:<br/>
 `fetch(USERS_URL,configObj("POST",false,user));`
 - Get a user from the token in the header:<br/> 
 `fetch(FIND_USER_URL,configObj("GET",true);`
-- Patch a user to `/users/` to update it, assuming that the user is found on backend through the token in the header: <br/>
+- Patch a user to update it, assuming that the user is found on backend through the token in the header: <br/>
 `fetch(USERS_URL,configObj("PATCH",true,user));`
 
